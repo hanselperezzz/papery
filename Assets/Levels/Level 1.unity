@@ -373,8 +373,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bef52f010fc64b739d8a40ecc33ba40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 24
-  xRange: 5
+  Speed: 30
+  xRange: 20
+  yRange: 10
 --- !u!1001 &1768979602
 Prefab:
   m_ObjectHideFlags: 0
