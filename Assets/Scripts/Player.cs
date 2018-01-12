@@ -8,13 +8,13 @@ public class Player : MonoBehaviour
 {
 
     [Tooltip("In ms^-1")] [SerializeField] float Speed = 30f;
-    [Tooltip("In m")] [SerializeField] float xRange = 12f;
+    [Tooltip("In m")] [SerializeField] float xRange = 15f;
     [Tooltip("In m")] [SerializeField] float yRange = 10f;
 
     [SerializeField] float positionPitchFactor = .3f;
     [SerializeField] float controlPitchFactor = 3f;
     [SerializeField] float positionYawFactor = 3f;
-    [SerializeField] float controlRollFactor = 20f;
+    [SerializeField] float controlRollFactor = -50f;
 
     float xThrow, yThrow;
 
