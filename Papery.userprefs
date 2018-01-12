@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/Scripts/MusicPlayer.cs" Line="9" Column="6" />
       <File FileName="Assets/Standard Assets/Utility/WaypointCircuit.cs" Line="255" Column="57" />
-      <File FileName="Assets/Scripts/Player.cs" Line="4" Column="11" />
+      <File FileName="Assets/Scripts/Player.cs" Line="28" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
