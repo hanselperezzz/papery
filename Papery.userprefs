@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{169614DD-501F-8D22-992A-E33A3DEBA3B4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="9" Column="6" />
+      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="18" Column="24" />
       <File FileName="Assets/Standard Assets/Utility/WaypointCircuit.cs" Line="255" Column="57" />
-      <File FileName="Assets/Scripts/Player.cs" Line="10" Column="23" />
+      <File FileName="Assets/Scripts/Player.cs" Line="53" Column="27" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
