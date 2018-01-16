@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput; // Step 1: Allow this functionality
-using System.Collections;
+
 
 public class Player : MonoBehaviour
 {
@@ -23,11 +23,6 @@ public class Player : MonoBehaviour
     void Start()
     {
 
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        print("Player collided with something");
     }
 
     void OnTriggerEnter(Collider other)
