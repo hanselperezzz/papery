@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 198958789505908352}
   - component: {fileID: 199410286319846220}
   - component: {fileID: 82360257428836752}
+  - component: {fileID: 114000862621884824}
   m_Layer: 0
   m_Name: Love Burst 2
   m_TagString: Untagged
@@ -122,6 +123,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114000862621884824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1637095809412522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38f9971b25ec48adbff4507596cd868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198958789505908352
 ParticleSystem:
   m_ObjectHideFlags: 1
