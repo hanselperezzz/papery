@@ -19,6 +19,7 @@ public class ScoreBoard : MonoBehaviour {
 	
 	public void ScoreHit(int scscoreIncrease)
     {
+        //change 1
         score = score + scscoreIncrease;
         scoreText.text = score.ToString();
     }
