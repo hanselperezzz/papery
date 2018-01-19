@@ -1,14 +1,5 @@
 ﻿<Properties StartupConfiguration="{169614DD-501F-8D22-992A-E33A3DEBA3B4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreBoard.cs">
-    <Files>
-      <File FileName="Assets/Scripts/CollisionHandler.cs" Line="15" Column="45" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="39" Column="10" />
-      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="24" Column="1" />
-      <File FileName="Assets/Scripts/SelfDestruct.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/ScoreBoard.cs" Line="7" Column="7" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

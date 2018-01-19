@@ -554,6 +554,7 @@ GameObject:
   - component: {fileID: 685901550}
   - component: {fileID: 685901552}
   - component: {fileID: 685901551}
+  - component: {fileID: 685901553}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -618,6 +619,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 685901549}
+--- !u!114 &685901553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 685901549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac17f0cd566349d197a6521a451d47b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &719561350 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 65e6c9db30741f746bb97c71ac69444f, type: 3}
@@ -639,6 +651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
+  scorePerHit: 12
 --- !u!1 &764784976
 GameObject:
   m_ObjectHideFlags: 0
@@ -4148,6 +4161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
+  scorePerHit: 12
 --- !u!1 &1004684216
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +4211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
+  scorePerHit: 12
 --- !u!1 &1188434698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4469,10 +4484,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4539,6 +4554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
+  scorePerHit: 1000000
 --- !u!1 &1786029877
 GameObject:
   m_ObjectHideFlags: 0
