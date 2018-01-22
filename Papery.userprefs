@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{169614DD-501F-8D22-992A-E33A3DEBA3B4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreBoard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SelfDestruct.cs">
     <Files>
       <File FileName="Assets/Scripts/ScoreBoard.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/SelfDestruct.cs" Line="14" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
