@@ -12,5 +12,6 @@ public class SelfDestruct : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//Change 1
+        //Change 2
 	}
 }
