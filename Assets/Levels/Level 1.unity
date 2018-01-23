@@ -266,6 +266,8 @@ MonoBehaviour:
   ControlSpeed: 15
   xRange: 15
   yRange: 10
+  guns:
+  - {fileID: 894147747}
   positionPitchFactor: 0.3
   positionYawFactor: 3
   controlPitchFactor: 3
@@ -652,6 +654,7 @@ MonoBehaviour:
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
   scorePerHit: 12
+  hits: 3
 --- !u!1 &764784976
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,7 +755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &894147748
 Transform:
   m_ObjectHideFlags: 0
@@ -883,7 +886,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -486065911
+  randomSeed: 579676001
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4162,6 +4165,7 @@ MonoBehaviour:
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
   scorePerHit: 12
+  hits: 3
 --- !u!1 &1004684216
 GameObject:
   m_ObjectHideFlags: 0
@@ -4212,6 +4216,7 @@ MonoBehaviour:
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
   scorePerHit: 12
+  hits: 3
 --- !u!1 &1188434698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4555,6 +4560,7 @@ MonoBehaviour:
   deathFX: {fileID: 1637095809412522, guid: 2b1a9a697178c4d7098757c8467589e7, type: 2}
   parent: {fileID: 1393561049}
   scorePerHit: 1000000
+  hits: 3
 --- !u!1 &1786029877
 GameObject:
   m_ObjectHideFlags: 0
