@@ -4428,71 +4428,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1872244022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1872244023}
-  - component: {fileID: 1872244024}
-  - component: {fileID: 1872244025}
-  m_Layer: 0
-  m_Name: Master Timeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1872244023
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1872244022}
-  m_LocalRotation: {x: 0.021550817, y: -0.25489023, z: 0.069263026, w: 0.96424544}
-  m_LocalPosition: {x: 200, y: 202, z: -46}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1872244024
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1872244022}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!320 &1872244025
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1872244022}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: c0e4b98d82f074c19abe0510f73b036c, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 114319627223358522, guid: c0e4b98d82f074c19abe0510f73b036c, type: 2}
-    value: {fileID: 2144584786}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1001 &1892560827
 Prefab:
   m_ObjectHideFlags: 0
@@ -4682,6 +4617,7 @@ GameObject:
   - component: {fileID: 2144584788}
   - component: {fileID: 2144584787}
   - component: {fileID: 2144584791}
+  - component: {fileID: 2144584792}
   m_Layer: 0
   m_Name: Player Rig
   m_TagString: MainCamera
@@ -4744,14 +4680,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2144584786}
-  m_LocalRotation: {x: 0.07703735, y: -0.37498206, z: 0.098173834, w: 0.9185944}
-  m_LocalPosition: {x: 207.92877, y: 212.36514, z: 6.0245667}
+  m_LocalRotation: {x: -0.045323603, y: -0.0631325, z: -0.05870654, w: -0.9952455}
+  m_LocalPosition: {x: 197.3501, y: 219.0525, z: -73.76154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1382045792}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 359.8328, y: -0.001684023, z: 359.7062}
+  m_LocalEulerAnglesHint: {x: 359.9532, y: 0.03769064, z: 0.3829564}
 --- !u!95 &2144584791
 Animator:
   serializedVersion: 3
@@ -4769,3 +4705,21 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!320 &2144584792
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2144584786}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: c0e4b98d82f074c19abe0510f73b036c, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 114543220621363600, guid: c0e4b98d82f074c19abe0510f73b036c, type: 2}
+    value: {fileID: 2144584786}
+  m_ExposedReferences:
+    m_References: []
