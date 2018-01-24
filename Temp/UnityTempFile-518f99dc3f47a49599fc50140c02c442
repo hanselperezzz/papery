@@ -159,6 +159,7 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
 -define:CROSS_PLATFORM_INPUT
+'Assets/Scripts/boxAction.cs'
 'Assets/Scripts/CollisionHandler.cs'
 'Assets/Scripts/Enemy.cs'
 'Assets/Scripts/MusicPlayer.cs'
