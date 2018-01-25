@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput; // Step 1: Allow this functionality
 
-
 public class PlayerController : MonoBehaviour
 {
     [Header("General")]
@@ -74,19 +73,19 @@ public class PlayerController : MonoBehaviour
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
     }
 
-    void ProcessFiring() 
+    void ProcessFiring()
     {
         if (CrossPlatformInputManager.GetButton("Fire"))
         {
-            ActivateGuns();
+            SetGunsActive(true);
         }
         else
         {
-            DeactivateGuns();
+            SetGunsActive(false);
         }
     }
 
-    private void ActivateGuns()
+    private void SetGunsActive(bool isActive)
     {
         foreach (GameObject gun in guns)
         {
@@ -94,11 +93,5 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void DeactivateGuns()
-    {
-        foreach (GameObject gun in guns) ///why this not work?
-        {
-            gun.SetActive(false);
-        }
-    }
 }
+
